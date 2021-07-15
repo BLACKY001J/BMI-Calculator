@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#d8bfd8"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BMI"
+        android:textSize="50dp"
+        android:textColor="#8b8378"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/simple"/>
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:src="@drawable/background_vector"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight"
+        android:textSize="30dp"
+        android:textColor="#2f4f4f"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:textColor="#483d8b"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:id="@+id/et_weight"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Height"
+        android:textSize="30dp"
+        android:textColor="#2f4f4f"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:textColor="#483d8b"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:id="@+id/et_height"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate BMI"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:id="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Result"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:id="@+id/tv_result"/>
+
+</LinearLayout>
